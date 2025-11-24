@@ -17,7 +17,7 @@ else:
     st.stop()
 
 # モデルの準備
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 # ユーザーの入力エリア
 user_input = st.text_input("Geminiに聞きたいことを入力してください", placeholder="例: Pythonの勉強方法を教えて")
